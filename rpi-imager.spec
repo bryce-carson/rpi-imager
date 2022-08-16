@@ -6,7 +6,7 @@ Summary:    Raspberry Pi operating system imager tool
 License:    GPLv2+
 URL:        https://www.raspberrypi.org/
 
-Source: https://github.com/bryce-carson/rpi-imager.git
+Source: https://github.com/bryce-carson/rpi-imager/archive/refs/tags/rpi-imager-%{version}-%{release}.tar.gz
 
 BuildRequires: git gcc gcc-c++ make cmake libarchive-devel libcurl-devel openssl-devel qt5-qtbase-devel qt5-qtquickcontrols2-devel qt5-qtsvg-devel qt5-linguist
 
