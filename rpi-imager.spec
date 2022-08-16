@@ -1,6 +1,6 @@
 Name:       rpi-imager
-Version:    1.7.4
-Release:    1%{?dist}
+Version:    1.7.3
+Release:    2
 Summary:    This is a test package.
 
 License:    GPLv2+
@@ -32,6 +32,23 @@ ctest -V %{?_smp_mflags}
 %doc
 
 %changelog
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.3-2
+- New release of RPM
+- Fix RPM Spec file: use CMake macros
+
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
+- Release 2 of the RPM
+- Use CMake
+
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
+- Fix RPM Spec file
+- Use CMake
+- Don't create a new version with Tito, just a new release of the RPM
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
+- Fix RPM Spec file
+- Use CMake
+
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.4-1
 - Fix RPM spec file to use CMake
 
