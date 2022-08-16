@@ -1,6 +1,6 @@
 Name:       rpi-imager
 Version:    1.7.2
-Release:    3
+Release:    4
 Summary:    Raspberry Pi operating system imager tool
 
 License:    GPLv2+
@@ -32,12 +32,14 @@ ctest -V %{?_smp_mflags}
 %doc
 
 %changelog
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-4
+- Fix Source URL issue
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-3
 - Fix all the issues with Tito and sources, hopefully.
 - Also CMake
-* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-1
-- New RPM with Tito; first Tito tag _this_ commit
-
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
 - Created an RPM spec file for 1.7.2
 - Initialized Tito for use with Copr
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-1
+- New RPM with Tito; first Tito tag _this_ commit
