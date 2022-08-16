@@ -32,6 +32,9 @@ ctest -V %{?_smp_mflags}
 %doc
 
 %changelog
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-6
+- Fix source issues, fix CMake issue (bcars268@mtroyal.ca)
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
 - 
 
