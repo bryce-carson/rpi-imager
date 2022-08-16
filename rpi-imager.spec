@@ -36,6 +36,9 @@ ctest -V %{?_smp_mflags}
 /usr/share/metainfo/rpi-imager.metainfo.xml
 
 %changelog
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-8
+- Fix files issue with RPM spec (bcars268@mtroyal.ca)
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-7
 - 
 
