@@ -1,5 +1,5 @@
 Name:       rpi-imager
-Version:    1.7.3
+Version:    1.7.4
 Release:    1%{?dist}
 Summary:    This is a test package.
 
@@ -19,16 +19,22 @@ Graphical user-interface to write disk images and format SD cards.
 %setup -q
 
 %build
-%configure
-make
+%cmake .
+%make_build
 
 %install
-rm -rf $RPM_BUILD_ROOT
+%make_install
+
+%check
+ctest -V %{?_smp_mflags}
 
 %files
 %doc
 
 %changelog
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.4-1
+- Fix RPM spec file to use CMake
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.3-1
 - New RPM with Tito; first Tito tag _this_ commit
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
