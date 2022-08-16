@@ -1,6 +1,6 @@
 Name:       rpi-imager
 Version:    1.7.2
-Release:    5
+Release:    6
 Summary:    Raspberry Pi operating system imager tool
 
 License:    GPLv2+
@@ -19,7 +19,7 @@ Graphical user-interface to write disk images and format SD cards.
 %setup -q
 
 %build
-%cmake .
+%cmake src
 %make_build
 
 %install
@@ -32,6 +32,12 @@ ctest -V %{?_smp_mflags}
 %doc
 
 %changelog
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
+- 
+
+* Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca>
+- 
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-5
 - Update SOURCE URL (bcars268@mtroyal.ca)
 
