@@ -1,6 +1,6 @@
 Name:       rpi-imager
 Version:    1.7.2
-Release:    9
+Release:    0
 Summary:    Raspberry Pi operating system imager tool
 
 License:    GPLv2+
