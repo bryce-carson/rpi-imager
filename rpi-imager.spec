@@ -1,6 +1,6 @@
 Name:       rpi-imager
 Version:    1.7.2
-Release:    0
+Release:    10
 Summary:    Raspberry Pi operating system imager tool
 
 License:    GPLv2+
@@ -35,6 +35,10 @@ ctest -V %{?_smp_mflags}
 /usr/share/metainfo/rpi-imager.metainfo.xml
 
 %changelog
+* Thu Aug 18 2022 Bryce Carson <bcars268@mtroyal.ca>
+- Fix again? (bcars268@mtroyal.ca)
+- Fix Source0 (bcars268@mtroyal.ca)
+
 * Tue Aug 16 2022 Bryce Carson <bcars268@mtroyal.ca> 1.7.2-9
 - 
 
